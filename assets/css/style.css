@@ -27,6 +27,10 @@ a {
 form {
 	text-align: left;
 	float: left;
+	margin-left: 60px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 75%;
 }
 #name {
 	float:left;
@@ -39,15 +43,12 @@ form {
 	color: white;
 	width: 15%;
 }
-
 #left {
 	float: right;
 	vertical-align: middle;
 	width: 15%;
 	background: white;
 	color: #777777;
-	border-right: solid;
-	border-right-color: #666;
 	padding: 0px;
 	margin-bottom: 0px;
 	margin: 20px
@@ -55,10 +56,12 @@ form {
 #middle {
 	float: right;
 	vertical-align: middle;
+	text-align: center;
 	width: 15%;
 	background: white;
 	color: #666;
 	border-right: solid;
+	border-left: solid;
 	border-right-color: #777777;
 	padding: 0px;
 	margin-bottom: 0px;
@@ -70,7 +73,8 @@ form {
 	width: 15%;
 	background: white;
 	color: #777777;
-	margin-bottom: 0px;
+	margin: 20px;
+	padding: 0px;
 }
 #full {
 	clear: both;
@@ -80,8 +84,9 @@ form {
 	border-top: solid;
 	border-top-color: #888;
 	overflow: auto;
+	margin-bottom: 0;
 }
-aside {
+h4 {
 	text-align: left;
 	color: #4aaaa5;
 	float: left;
@@ -91,11 +96,13 @@ aside {
 	width: 650px;
 	background: #fff;
 	border: 1px solid #eee;
+	margin-top: 30px;
 }
 p {
 	font-size: 75%;
 	text-align: left;
-	margin-right: 25px;
+	margin-right: 60px;
+	margin-left: 60px;
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -109,7 +116,7 @@ p {
 	float: left;
 	margin-right: 25px;
 	margin-bottom: 25px;
-	margin-left: 25px;
+	margin-left: 60px;
 }
 #connect {
 	text-align: center;
@@ -117,6 +124,14 @@ p {
 	width: 270px;
 	position: relative;
 	margin-left: 40px;
+}
+#submit {
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-bottom: 0px;
+	background-color: #4aaaa5;
+	color: white;
+	width: 20%;
 }
 div.container {
 	float: left;
@@ -139,13 +154,5 @@ p.portbanner {
 	color: white;
 	width: 200px;
 	top: 75px;
-}
-footer {
-	background: #666666;
-	font-size: 50%;
-	border-top: solid;
-	border-top-color: #4aaaa5;
-	padding: 20px;
-	clear: both;
-	color: white;
+	margin-left: 0px;
 }

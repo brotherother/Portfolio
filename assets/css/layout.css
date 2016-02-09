@@ -1,0 +1,25 @@
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+	background: #666666;
+	color: white;
+	padding: 20px;
+	clear: both;
+	font-size: 50%;
+	padding-top: 10px;
+}
+
+.push {
+	border-top: solid;
+	border-top-color: #4aaaa5;
+}
