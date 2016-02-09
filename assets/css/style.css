@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+	font-size: 24px;
+	line-height: 32px;
+	color: #333;
+}
+header {
+	float: left;
+	text-align: center;
+	background: #ffffff;
+	border-color: #cccccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 0%;
+}
+section {
+	padding: 20px;
+	background: #ccc;
+	margin-bottom: 20px;
+}
+a {
+	text-decoration: none;
+}
+form {
+	text-align: left;
+	float: left;
+}
+#name {
+	float:left;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	background-color: #4aaaa5;
+	color: white;
+	width: 15%;
+}
+
+#left {
+	float: right;
+	width: 15%;
+	background: white;
+	color: #666;
+	border-right: solid;
+	border-right-color: #666;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin: 20px
+}
+#middle {
+	float: right;
+	width: 15%;
+	background: white;
+	color: #666;
+	border-right: solid;
+	border-right-color: #666;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin: 20px
+}
+#right {
+	float: right;
+	width: 15%;
+	background: white;
+	color: #666;
+	margin-bottom: 0px;
+}
+#full {
+	clear: both;
+	width: 100%;
+	background: url('../images/concrete_seamless.png');
+	border-top: solid;
+	border-top-color: #888;
+	overflow: auto;
+}
+aside {
+	text-align: left;
+	color: #4aaaa5;
+	float: left;
+	margin-left: 70px;
+	padding: 20px;
+	height: 600px;
+	width: 650px;
+	background: #fff;
+	border: 1px solid #eee;
+}
+p {
+	text-align: left;
+	margin-right: 25px;
+}
+#division {
+	height: 3px;
+	background: #888;
+	padding: 0px;
+	margin-top: 0px;
+}
+#profile {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+}
+#connect {
+	text-align: center;
+	height: 175px;
+	width: 270px;
+	position: relative;
+}
+div.container {
+	float: left;
+	height: 133px;
+	margin-left: 65px;
+	margin-bottom: 50px;
+	width: 200px;
+	position: relative;
+}
+img.portlink {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+p.portbanner {
+	z-index: 100;
+	position: relative;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
+	width: 200px;
+	top: 75px;
+}
+footer {
+	background: #ccc;
+	border-top: solid;
+	border-top-color: #4aaaa5;
+	padding: 20px;
+	clear: both;
+	color: white;
+}
